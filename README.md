@@ -447,6 +447,15 @@ Use `bash scripts/start.sh` for the whole stack and `bash scripts/stop.sh` to ta
 - [docs/releasing.md](docs/releasing.md)
 - [docs/web-research.md](docs/web-research.md): public-web search and extraction through Parallel, Exa or Firecrawl
 
+## Feature map
+
+A verification map of every user-facing feature, for people and coding agents:
+
+- [docs/feature-map/feature-map.html](docs/feature-map/feature-map.html): the overview, grouped by area, with a status column and the run and deploy model. Open it from disk.
+- [.cursor/skills/verify-openbot/features/README.md](.cursor/skills/verify-openbot/features/README.md): the index, then one recipe per feature (sub-features, how to get to it, driving it with Playwright, gotchas).
+
+Mapped Nov 19, 2026 from `main` at `bd4dc949`. Every feature is code-only: there is no public deployment, and the map was made without launching the stack. Refresh it with the pstack `maintain-verification-skill` when routes or surfaces change.
+
 ## Contributing
 
 - Open an issue or coordinate before starting substantial work.
